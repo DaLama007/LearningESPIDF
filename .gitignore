@@ -1,0 +1,15 @@
+# ESP-IDF build output
+build/
+
+# Machine-specific config (commit sdkconfig.defaults instead)
+sdkconfig
+sdkconfig.old
+
+# Component manager downloads (re-fetched on build)
+managed_components/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
